@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F43FBC263276ED0005C98A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F43FBB263276ED0005C98A /* CoreLocation.framework */; };
+		06FBDD282631B7A9002CB888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FBDD272631B7A9002CB888 /* Foundation.framework */; };
+		06FBDD322631B7A9002CB888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FBDD312631B7A9002CB888 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F43F8D263272D30005C98A /* CLLocationSmoother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationSmoother.h; sourceTree = "<group>"; };
+		06F43F8E263272D30005C98A /* _CLLocationSmootherProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLLocationSmootherProxy.h; sourceTree = "<group>"; };
+		06F43F8F263272D30005C98A /* CLLocationMatchInfoInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationMatchInfoInternal.h; sourceTree = "<group>"; };
+		06F43F90263272D30005C98A /* CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocation.h; sourceTree = "<group>"; };
+		06F43F91263272D30005C98A /* CLBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBeaconRegion.h; sourceTree = "<group>"; };
+		06F43F92263272D30005C98A /* CLLocationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationInternal.h; sourceTree = "<group>"; };
+		06F43F93263272D30005C98A /* CLGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGeocoder.h; sourceTree = "<group>"; };
+		06F43F94263272D30005C98A /* CLLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationManager.h; sourceTree = "<group>"; };
+		06F43F95263272D30005C98A /* CLBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBeacon.h; sourceTree = "<group>"; };
+		06F43F96263272D30005C98A /* CLTilesManagerClientInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTilesManagerClientInternal.h; sourceTree = "<group>"; };
+		06F43F97263272D30005C98A /* _CLRangingPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLRangingPeer.h; sourceTree = "<group>"; };
+		06F43F98263272D30005C98A /* CLTilesManagerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTilesManagerClient.h; sourceTree = "<group>"; };
+		06F43F99263272D30005C98A /* CLBeaconInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBeaconInternal.h; sourceTree = "<group>"; };
+		06F43F9A263272D30005C98A /* CLFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFloor.h; sourceTree = "<group>"; };
+		06F43F9B263272D30005C98A /* CLVehicleHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVehicleHeading.h; sourceTree = "<group>"; };
+		06F43F9C263272D30005C98A /* CLHarvester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLHarvester.h; sourceTree = "<group>"; };
+		06F43F9D263272D30005C98A /* CLPredictedApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPredictedApplication.h; sourceTree = "<group>"; };
+		06F43F9E263272D30005C98A /* _CLMicroLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLMicroLocation.h; sourceTree = "<group>"; };
+		06F43F9F263272D30005C98A /* _CLLocationManagerRoutineProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLLocationManagerRoutineProxy.h; sourceTree = "<group>"; };
+		06F43FA0263272D30005C98A /* CLSimulationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSimulationManager.h; sourceTree = "<group>"; };
+		06F43FA1263272D30005C98A /* _CLRangingPeerDistanceInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLRangingPeerDistanceInternal.h; sourceTree = "<group>"; };
+		06F43FA2263272D30005C98A /* CLInUseAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLInUseAssertion.h; sourceTree = "<group>"; };
+		06F43FA3263272D30005C98A /* CLAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAssertion.h; sourceTree = "<group>"; };
+		06F43FA4263272D30005C98A /* CLLocationManagerStateTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationManagerStateTracker.h; sourceTree = "<group>"; };
+		06F43FA5263272D30005C98A /* CLVehicleHeadingInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVehicleHeadingInternal.h; sourceTree = "<group>"; };
+		06F43FA6263272D30005C98A /* CLLocationManagerRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationManagerRoutine.h; sourceTree = "<group>"; };
+		06F43FA7263272D30005C98A /* CLLocationIndependenceAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationIndependenceAssertion.h; sourceTree = "<group>"; };
+		06F43FA8263272D30005C98A /* CLVehicleSpeedInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVehicleSpeedInternal.h; sourceTree = "<group>"; };
+		06F43FA9263272D30005C98A /* CLPlacemarkInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlacemarkInternal.h; sourceTree = "<group>"; };
+		06F43FAA263272D30005C98A /* CLLocationMatchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationMatchInfo.h; sourceTree = "<group>"; };
+		06F43FAB263272D30005C98A /* _CLRangingPeerDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLRangingPeerDistance.h; sourceTree = "<group>"; };
+		06F43FAC263272D30005C98A /* CLVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVisit.h; sourceTree = "<group>"; };
+		06F43FAD263272D30005C98A /* CLStateTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLStateTracker.h; sourceTree = "<group>"; };
+		06F43FAE263272D30005C98A /* CLHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLHeading.h; sourceTree = "<group>"; };
+		06F43FAF263272D30005C98A /* _CLRangingPeerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLRangingPeerInternal.h; sourceTree = "<group>"; };
+		06F43FB0263272D30005C98A /* _CLMicroLocationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CLMicroLocationResult.h; sourceTree = "<group>"; };
+		06F43FB1263272D30005C98A /* CLHeadingInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLHeadingInternal.h; sourceTree = "<group>"; };
+		06F43FB2263272D30005C98A /* CLRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegion.h; sourceTree = "<group>"; };
+		06F43FB3263272D30005C98A /* CLRegionInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegionInternal.h; sourceTree = "<group>"; };
+		06F43FB4263272D30005C98A /* CLEmergencyEnablementAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmergencyEnablementAssertion.h; sourceTree = "<group>"; };
+		06F43FB5263272D30005C98A /* CLVehicleSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVehicleSpeed.h; sourceTree = "<group>"; };
+		06F43FB6263272D30005C98A /* CLCircularRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCircularRegion.h; sourceTree = "<group>"; };
+		06F43FB7263272D30005C98A /* CLLocationInternalClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationInternalClient.h; sourceTree = "<group>"; };
+		06F43FB8263272D30005C98A /* CLGeocoderInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGeocoderInternal.h; sourceTree = "<group>"; };
+		06F43FB9263272D30005C98A /* CLLocationManagerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationManagerInternal.h; sourceTree = "<group>"; };
+		06F43FBA263272D30005C98A /* CLPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlacemark.h; sourceTree = "<group>"; };
+		06F43FBB263276ED0005C98A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06FBDD272631B7A9002CB888 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06FBDD2C2631B7A9002CB888 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		06FBDD2D2631B7A9002CB888 /* monkeydev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = monkeydev.entitlements; sourceTree = "<group>"; };
+		06FBDD302631B7A9002CB888 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0xdeadfa11; sourceTree = "<group>"; };
+		06FBDD312631B7A9002CB888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06FBDD342631B7A9002CB888 /* runs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "runs-Prefix.pch"; path = "../runs-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06FBDD232631B7A9002CB888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F43FBC263276ED0005C98A /* CoreLocation.framework in Frameworks */,
+				06FBDD282631B7A9002CB888 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F43F8C263272D30005C98A /* LocationHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				06F43F8D263272D30005C98A /* CLLocationSmoother.h */,
+				06F43F8E263272D30005C98A /* _CLLocationSmootherProxy.h */,
+				06F43F8F263272D30005C98A /* CLLocationMatchInfoInternal.h */,
+				06F43F90263272D30005C98A /* CLLocation.h */,
+				06F43F91263272D30005C98A /* CLBeaconRegion.h */,
+				06F43F92263272D30005C98A /* CLLocationInternal.h */,
+				06F43F93263272D30005C98A /* CLGeocoder.h */,
+				06F43F94263272D30005C98A /* CLLocationManager.h */,
+				06F43F95263272D30005C98A /* CLBeacon.h */,
+				06F43F96263272D30005C98A /* CLTilesManagerClientInternal.h */,
+				06F43F97263272D30005C98A /* _CLRangingPeer.h */,
+				06F43F98263272D30005C98A /* CLTilesManagerClient.h */,
+				06F43F99263272D30005C98A /* CLBeaconInternal.h */,
+				06F43F9A263272D30005C98A /* CLFloor.h */,
+				06F43F9B263272D30005C98A /* CLVehicleHeading.h */,
+				06F43F9C263272D30005C98A /* CLHarvester.h */,
+				06F43F9D263272D30005C98A /* CLPredictedApplication.h */,
+				06F43F9E263272D30005C98A /* _CLMicroLocation.h */,
+				06F43F9F263272D30005C98A /* _CLLocationManagerRoutineProxy.h */,
+				06F43FA0263272D30005C98A /* CLSimulationManager.h */,
+				06F43FA1263272D30005C98A /* _CLRangingPeerDistanceInternal.h */,
+				06F43FA2263272D30005C98A /* CLInUseAssertion.h */,
+				06F43FA3263272D30005C98A /* CLAssertion.h */,
+				06F43FA4263272D30005C98A /* CLLocationManagerStateTracker.h */,
+				06F43FA5263272D30005C98A /* CLVehicleHeadingInternal.h */,
+				06F43FA6263272D30005C98A /* CLLocationManagerRoutine.h */,
+				06F43FA7263272D30005C98A /* CLLocationIndependenceAssertion.h */,
+				06F43FA8263272D30005C98A /* CLVehicleSpeedInternal.h */,
+				06F43FA9263272D30005C98A /* CLPlacemarkInternal.h */,
+				06F43FAA263272D30005C98A /* CLLocationMatchInfo.h */,
+				06F43FAB263272D30005C98A /* _CLRangingPeerDistance.h */,
+				06F43FAC263272D30005C98A /* CLVisit.h */,
+				06F43FAD263272D30005C98A /* CLStateTracker.h */,
+				06F43FAE263272D30005C98A /* CLHeading.h */,
+				06F43FAF263272D30005C98A /* _CLRangingPeerInternal.h */,
+				06F43FB0263272D30005C98A /* _CLMicroLocationResult.h */,
+				06F43FB1263272D30005C98A /* CLHeadingInternal.h */,
+				06F43FB2263272D30005C98A /* CLRegion.h */,
+				06F43FB3263272D30005C98A /* CLRegionInternal.h */,
+				06F43FB4263272D30005C98A /* CLEmergencyEnablementAssertion.h */,
+				06F43FB5263272D30005C98A /* CLVehicleSpeed.h */,
+				06F43FB6263272D30005C98A /* CLCircularRegion.h */,
+				06F43FB7263272D30005C98A /* CLLocationInternalClient.h */,
+				06F43FB8263272D30005C98A /* CLGeocoderInternal.h */,
+				06F43FB9263272D30005C98A /* CLLocationManagerInternal.h */,
+				06F43FBA263272D30005C98A /* CLPlacemark.h */,
+			);
+			path = LocationHeaders;
+			sourceTree = "<group>";
+		};
+		06FBDD1D2631B7A9002CB888 = {
+			isa = PBXGroup;
+			children = (
+				06FBDD292631B7A9002CB888 /* runs */,
+				06FBDD262631B7A9002CB888 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06FBDD262631B7A9002CB888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F43FBB263276ED0005C98A /* CoreLocation.framework */,
+				06FBDD272631B7A9002CB888 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06FBDD292631B7A9002CB888 /* runs */ = {
+			isa = PBXGroup;
+			children = (
+				06F43F8C263272D30005C98A /* LocationHeaders */,
+				06FBDD2D2631B7A9002CB888 /* monkeydev.entitlements */,
+				06FBDD312631B7A9002CB888 /* main.m */,
+				06FBDD2A2631B7A9002CB888 /* Package */,
+				06FBDD332631B7A9002CB888 /* Supporting Files */,
+			);
+			path = runs;
+			sourceTree = "<group>";
+		};
+		06FBDD2A2631B7A9002CB888 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				06FBDD2B2631B7A9002CB888 /* DEBIAN */,
+				06FBDD2E2631B7A9002CB888 /* usr */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		06FBDD2B2631B7A9002CB888 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				06FBDD2C2631B7A9002CB888 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		06FBDD2E2631B7A9002CB888 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				06FBDD2F2631B7A9002CB888 /* bin */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		06FBDD2F2631B7A9002CB888 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				06FBDD302631B7A9002CB888 /* 0xdeadfa11 */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		06FBDD332631B7A9002CB888 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06FBDD342631B7A9002CB888 /* runs-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06FBDD252631B7A9002CB888 /* runs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FBDD372631B7A9002CB888 /* Build configuration list for PBXNativeTarget "runs" */;
+			buildPhases = (
+				06FBDD222631B7A9002CB888 /* Sources */,
+				06FBDD232631B7A9002CB888 /* Frameworks */,
+				06FBDD242631B7A9002CB888 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runs;
+			productName = runs;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06FBDD1E2631B7A9002CB888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					06FBDD252631B7A9002CB888 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 06FBDD212631B7A9002CB888 /* Build configuration list for PBXProject "runs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06FBDD1D2631B7A9002CB888;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06FBDD252631B7A9002CB888 /* runs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06FBDD242631B7A9002CB888 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FBDD222631B7A9002CB888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FBDD322631B7A9002CB888 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06FBDD352631B7A9002CB888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"runs\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06FBDD362631B7A9002CB888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"runs\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		06FBDD382631B7A9002CB888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = runs/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKUDB433U9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/runs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runs/runs-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				MACH_O_TYPE = mh_execute;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		06FBDD392631B7A9002CB888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = runs/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKUDB433U9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/runs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runs/runs-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				MACH_O_TYPE = mh_execute;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06FBDD212631B7A9002CB888 /* Build configuration list for PBXProject "runs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FBDD352631B7A9002CB888 /* Release */,
+				06FBDD362631B7A9002CB888 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FBDD372631B7A9002CB888 /* Build configuration list for PBXNativeTarget "runs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FBDD382631B7A9002CB888 /* Release */,
+				06FBDD392631B7A9002CB888 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06FBDD1E2631B7A9002CB888 /* Project object */;
+}
